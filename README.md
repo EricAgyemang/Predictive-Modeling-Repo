@@ -1,5 +1,5 @@
-# Predictive-Modeling-Repo
-# Generalized Linear Models And Predictive Modeling ( MAT 355, ISU).
+
+# Generalized Linear Models, Predictive Modeling ( MAT 355, ISU).
 A model is specified in two parts: an equation linking the response and explanatory variables and 
 the probability distribution of the response variable
 
