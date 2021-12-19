@@ -8,7 +8,8 @@ A model is specified in two parts: an equation linking the response and
 explanatory variables and the probability distribution of the response variable.
 Example: The equation linking each response variable Y and a set of explanatory
 variables x1; ...; xm has the form
-g(E(Y )) = β0 + β1x1 + .... + βmxm
+
+    g(E(Y )) = β0 + β1x1 + .... + βmxm
 
 # Estimation
 Estimate the parameters of the model.
@@ -33,17 +34,18 @@ physicians) than women who live near a wider range of health services.
   • The Poisson distribution provides a plausible way of modeling these data (why?).
   
   • Yjk be a random variable representing the number of conditions for the kth woman
-  in the jth group, where j = 1 for the town group and j = 2 for the country group.
+    in the jth group, where j = 1 for the town group and j = 2 for the country group.
   
   • The null hypothesis
-       H0 : θ1 = θ2 = θ
+  
+        H0 : θ1 = θ2 = θ
               VS
-       H2 : θ1 6= θ2.
+        H2 : θ1 6= θ2.
        
   • That is, under H0 (Model 1),
   
        E(Yjk ) = θ; Yjk ∼ Po(θ):
-    Under H1 (Model 2),
+           Under H1 (Model 2),
        E(Yjk ) = θj; Yjk ∼ Po(θj).
        
 If Model 2 is clearly better, then H0 would be rejected in favor of H1.
