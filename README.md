@@ -1,5 +1,5 @@
 # Predictive-Modeling-Repo
-Generalized Linear Models And Predictive Modeling ( MAT 355, ISU).
+# Generalized Linear Models And Predictive Modeling ( MAT 355, ISU).
 A model is specified in two parts: an equation linking the response and explanatory variables and 
 the probability distribution of the response variable
 
@@ -31,16 +31,21 @@ physicians) than women who live near a wider range of health services.
 
 # Model formulation
   • The Poisson distribution provides a plausible way of modeling these data (why?).
+  
   • Yjk be a random variable representing the number of conditions for the kth woman
   in the jth group, where j = 1 for the town group and j = 2 for the country group.
+  
   • The null hypothesis
        H0 : θ1 = θ2 = θ
               VS
-       H2 : θ1 6= θ2:
+       H2 : θ1 6= θ2.
+       
   • That is, under H0 (Model 1),
+  
        E(Yjk ) = θ; Yjk ∼ Po(θ):
     Under H1 (Model 2),
-       E(Yjk ) = θj; Yjk ∼ Po(θj):
+       E(Yjk ) = θj; Yjk ∼ Po(θj).
+       
 If Model 2 is clearly better, then H0 would be rejected in favor of H1.
 How to develop the test?
 
