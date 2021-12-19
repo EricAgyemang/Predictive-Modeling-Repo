@@ -1,0 +1,9 @@
+ulcer,case-control,aspirin,frequency
+gastric,control,non-user,62
+gastric,control,user,6
+gastric,case,non-user,39
+gastric,case,user,25
+duodenal,control,non-user,53
+duodenal,control,user,8
+duodenal,case,non-user,49
+duodenal,case,user,8
